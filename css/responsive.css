@@ -1,0 +1,205 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+  .main_menu_area .navbar-nav {
+    margin-top: 30px;
+  }
+  .main_menu_area nav ul.navbar-nav li a {
+    display: block;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 15px 10px;
+  }
+  .main_menu_area nav ul.navbar-nav li a:hover {
+    background: #506a85 none repeat scroll 0 0;
+    color: #fff;
+  }
+  .main_menu_area form.searchbox {
+    float: left;
+  }
+  .main_menu_area .searchbox-input {
+    left: 0;
+    padding-left: 50px;
+    width: 300px;
+    border: 1px solid #6F89A6;
+  }
+  .top_email,
+  .top_mobile {
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 10px;
+  }
+  .header_top ul {
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .single_slider h1 {
+    font-size: 38px;
+  }
+.single_slider p {
+  font-size: 18px;
+  padding: 0 10px;
+}
+  .owl-nav{
+    display: none;
+  }
+  .slide_btn {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .section_heading h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .section_heading p {
+    font-size: 16px;
+  }
+  .works_preview_big {
+    margin-bottom: 15px;
+  }
+  .footer_widget {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .widget_works a img {
+    float: none;
+  }
+  .footer_bottom_area p {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer_bottom_area ul {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .single_slider_3 h1 p {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 38px;
+  }
+  .single_slider_2 p {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .single_slider_3 p {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .single_slider_3 .slide_btn {
+    left: 50%;
+    margin-left: -90px;
+    position: absolute;
+    text-align: center;
+  }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main_menu_area .navbar-nav {
+    margin-top: 30px;
+  }
+  .main_menu_area nav ul.navbar-nav li a {
+    display: block;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 15px 10px;
+  }
+  .main_menu_area nav ul.navbar-nav li a:hover {
+    background: #506a85 none repeat scroll 0 0;
+    color: #fff;
+  }
+  .main_menu_area form.searchbox {
+    float: left;
+  }
+  .main_menu_area .searchbox-open .searchbox-input {
+    left: 0;
+    padding-left: 50px;
+    width: 1025%;
+  }
+  .single_slider h1 {
+    font-size: 58px;
+  }
+  .section_heading h2 {
+    margin-bottom: 30px;
+  }
+  .section_heading p {
+    font-size: 16px;
+  }
+  .footer_widget {
+    margin-bottom: 50px;
+  }
+  .widget_works a img {
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 120px;
+    float: none;
+  }
+  .footer_bottom_area ul {
+    float: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .footer_bottom_area p {
+    text-align: center;
+    display: block;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main_menu_area .navbar-nav {
+    margin-top: 30px;
+  }
+  .main_menu_area nav ul.navbar-nav li a {
+    display: block;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 15px 10px;
+  }
+  .main_menu_area nav ul.navbar-nav li a:hover {
+    background: #506a85 none repeat scroll 0 0;
+    color: #fff;
+  }
+  .main_menu_area form.searchbox {
+    float: left;
+  }
+  .main_menu_area .searchbox-open .searchbox-input {
+    left: 0;
+    padding-left: 50px;
+    width: 1385%;
+  }
+  .widget_works a img {
+    width: 46.5%;
+  }
+
+  .widget_newslatter input {
+    display: block;
+    width: 100%;
+  }
+  .widget_newslatter button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    position: unset;
+    text-align: center;
+    width: 100%;
+  }
+
+}
+/*
+ Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+ Extra large devices (large desktops, 1200px and up)
+
+@media (min-width: 1200px) {}*/
